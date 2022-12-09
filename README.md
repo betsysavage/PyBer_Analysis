@@ -5,12 +5,14 @@
 PyBer leadership has requested an analysis of trips, drivers, and fares from their rideshare data by market type. The goal of this analysis is to discover rideshare patterns in the markets of different city types in order to better understand gaps in access and affordability between markets. The analysis is based on Pyber's csv files of city data and ride data.
 
 ## Results
+### Summary Results
 To complete this analysis, we merged the two csv files into a single data frame, then grouped the data by city types to target our review by markets. Using the sum and count functions, we created variables to capture summary statistics for total/average rides, drivers, and fares for each market. The summary data frame containing these variables appears below.
 
 <img width="642" alt="image" src="https://user-images.githubusercontent.com/114873837/206607411-d4ced616-19e7-4138-bee6-957e7abc5258.png">
 
 The urban market clearly tops the list in terms of fares collected, number of rides, and number of drivers. However, the volume of riders and drivers tends to keep average fares lower than other markets. Conversely, because there are so few drivers in rural areas, the average fare amount is quite high, which would be quite lucrative for those considering becoming drivers in these more underserved areas.
 
+### Trends Over Time
 The next step in the analysis was to regroup the data to describe the total fare amounts by week for each city type. The results were then filtered to a specific date range from January to April. We could then use this newly grouped and filtered data frame to create a line chart comparing the trends in fare amounts over time. The multiple line chart is below:
 
 <img width="1070" alt="image" src="https://user-images.githubusercontent.com/114873837/206607332-56f9a63b-ecd7-4758-8424-65b62f5001cc.png">
